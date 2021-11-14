@@ -24,6 +24,14 @@ Let's see how to do this!
 ```
 
 ```python
+pip install bugrobot 
+```
+
+```python
+
+```
+
+```python
 import  bugrobot
 
 subject = "info@train_model.py" 
