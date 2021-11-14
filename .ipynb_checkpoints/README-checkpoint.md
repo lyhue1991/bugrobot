@@ -1,3 +1,6 @@
+# bugrobot 微信报警机器人
+
+
 Algorithm engineers or RDs often feel anxious when monitoring their running codes.
 
 Some codes can be running for several hours and even be running for several days.
@@ -17,18 +20,35 @@ If we set QQ mail remind on wechat and sending emails to our QQ Email, we cat re
 Let's see how to do this!
 
 
+算法工程师常常会为监控代码而头痛，有些代码执行时间常常会长达数小时，甚至几天。
+
+例如一些机器学习模型的训练，以及一些大数据ETL任务。
+
+如果能够将执行过程中的一些中间重要信息发送到我们的微信上，随时随地在手机上看到程序是否正常运行，让一切都在掌握之中，
+
+那么将会让算法工程师的许多头发免受骨肉分离，随风飘零之苦。
+
+实际上我们通过利用Python代码发送邮件到我们的QQ邮箱，并在微信上设置QQ邮箱提醒，可以非常容易实现这个功能。
+
+效果如下，让我们来看看怎么做吧！
+
+
 ![](微信报警机器人.jpg)
 
+
+
+
+```python
+#setup bugrobot
+!pip install bugrobot 
+```
+
 ```python
 
 ```
 
 ```python
-pip install bugrobot 
-```
-
-```python
-
+#enjoy!
 ```
 
 ```python
